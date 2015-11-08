@@ -5,7 +5,10 @@ import networkx as nx
 import networkx.algorithms.isomorphism as iso
 import Is_a_bond as Iab
 import Find_Protons 
-import matplotlib.pyplot as plt
+try:
+    import matplotlib.pyplot as plt
+except:
+    print('matplotlib not found. Will not be able to print graphs')
 
 csv_location = "/A_PATH/"
 
