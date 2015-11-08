@@ -5,3 +5,6 @@ Requires NetworkX and Numpy (and Matplotlib if you want to display any graphs co
 
 
 Currently in use for a neural-network molecular geometry optimization project. I'll push that as soon as its done.
+
+
+Tested extensively on a proprietary data set. Let me know if you notice any issues, or want my help adapting this to your needs.
